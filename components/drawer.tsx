@@ -71,6 +71,7 @@ function UserDrawer({ opened, close }: any) {
             </div>
             {sideBar.map((list, _index) => (
               <div
+                key={_index}
                 className={clsx(
                   pathName === list.link
                     ? "flex items-center  bg-[#BCEED9] gap-3 font-semibold rounded-lg text-base py-[9px] px-[15px] w-[200px] text-[#344054]"
@@ -91,6 +92,7 @@ function UserDrawer({ opened, close }: any) {
           <section className="flex flex-col gap-3">
             {sideBar2.map((list, _index) => (
               <div
+                key={_index}
                 className={clsx(
                   pathName === list.link
                     ? "flex items-center  bg-[#BCEED9] gap-3 font-semibold rounded-lg text-base py-[9px] px-[15px] w-[200px] text-[#344054]"
