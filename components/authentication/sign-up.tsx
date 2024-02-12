@@ -75,8 +75,8 @@ const UserSignUp = () => {
         </section>
       </div>
 
-      <div className="h-full lg:w-[30%] w-full bg-white flex flex-col items-center lg:justify-center justify-normal py-[30px]">
-        <section className="w-[360px] flex flex-col gap-[30px]">
+      <div className="h-full lg:w-[30%] w-full bg-white flex flex-col items-center lg:justify-center justify-normal p-[30px]">
+        <section className="lg:w-[360px] w-full flex flex-col gap-[30px]">
           <h3 className="font-semibold text-[#101828] text-3xl">Sign up</h3>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-5">
